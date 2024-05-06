@@ -1,0 +1,23 @@
+/*
+ * Optional CSS
+ * -----------------------------------
+ */
+
+/* This sets a different background and item background in light mode on ios */
+.ios body {
+    --ion-background-color: #615e5e;
+    --ion-toolbar-background: var(--ion-background-color);
+    --ion-item-background: #615e5e;
+  }
+  
+  /* This sets a different background and item background in light mode on md */
+  .md body {
+    --ion-background-color: #615e5e;
+    --ion-toolbar-background: var(--ion-background-color);
+    --ion-item-background: #615e5e;
+  }
+  
+  /* This is added for the flashing that happens when toggling between themes */
+  ion-item {
+    --transition: none;
+  }

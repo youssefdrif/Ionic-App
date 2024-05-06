@@ -1,0 +1,10 @@
+.img-gym{
+    width: 40%;
+}
+
+.icon-status{
+    position: absolute;
+    width: 24px;
+    top: -10px;
+    left: 64px;
+}
